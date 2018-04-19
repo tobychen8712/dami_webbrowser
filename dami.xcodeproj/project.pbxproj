@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3207358920872CD30023B56F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207358820872CD30023B56F /* AppDelegate.swift */; };
+		3207358B20872CD30023B56F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207358A20872CD30023B56F /* ViewController.swift */; };
+		3207358E20872CD30023B56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3207358C20872CD30023B56F /* Main.storyboard */; };
+		3207359020872CD30023B56F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3207358F20872CD30023B56F /* Images.xcassets */; };
+		3207359320872CD30023B56F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3207359120872CD30023B56F /* LaunchScreen.xib */; };
+		3207359F20872CD30023B56F /* damiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3207359E20872CD30023B56F /* damiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3207359920872CD30023B56F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3207357B20872CD30023B56F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3207358220872CD30023B56F;
+			remoteInfo = dami;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3207358320872CD30023B56F /* dami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dami.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3207358720872CD30023B56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3207358820872CD30023B56F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3207358A20872CD30023B56F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3207358D20872CD30023B56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3207358F20872CD30023B56F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3207359220872CD30023B56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3207359820872CD30023B56F /* damiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = damiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3207359D20872CD30023B56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3207359E20872CD30023B56F /* damiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = damiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3207358020872CD30023B56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3207359520872CD30023B56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3207357A20872CD30023B56F = {
+			isa = PBXGroup;
+			children = (
+				3207358520872CD30023B56F /* dami */,
+				3207359B20872CD30023B56F /* damiTests */,
+				3207358420872CD30023B56F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3207358420872CD30023B56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3207358320872CD30023B56F /* dami.app */,
+				3207359820872CD30023B56F /* damiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3207358520872CD30023B56F /* dami */ = {
+			isa = PBXGroup;
+			children = (
+				3207358820872CD30023B56F /* AppDelegate.swift */,
+				3207358A20872CD30023B56F /* ViewController.swift */,
+				3207358C20872CD30023B56F /* Main.storyboard */,
+				3207358F20872CD30023B56F /* Images.xcassets */,
+				3207359120872CD30023B56F /* LaunchScreen.xib */,
+				3207358620872CD30023B56F /* Supporting Files */,
+			);
+			path = dami;
+			sourceTree = "<group>";
+		};
+		3207358620872CD30023B56F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3207358720872CD30023B56F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3207359B20872CD30023B56F /* damiTests */ = {
+			isa = PBXGroup;
+			children = (
+				3207359E20872CD30023B56F /* damiTests.swift */,
+				3207359C20872CD30023B56F /* Supporting Files */,
+			);
+			path = damiTests;
+			sourceTree = "<group>";
+		};
+		3207359C20872CD30023B56F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3207359D20872CD30023B56F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3207358220872CD30023B56F /* dami */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320735A220872CD30023B56F /* Build configuration list for PBXNativeTarget "dami" */;
+			buildPhases = (
+				3207357F20872CD30023B56F /* Sources */,
+				3207358020872CD30023B56F /* Frameworks */,
+				3207358120872CD30023B56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dami;
+			productName = dami;
+			productReference = 3207358320872CD30023B56F /* dami.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3207359720872CD30023B56F /* damiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 320735A520872CD30023B56F /* Build configuration list for PBXNativeTarget "damiTests" */;
+			buildPhases = (
+				3207359420872CD30023B56F /* Sources */,
+				3207359520872CD30023B56F /* Frameworks */,
+				3207359620872CD30023B56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3207359A20872CD30023B56F /* PBXTargetDependency */,
+			);
+			name = damiTests;
+			productName = damiTests;
+			productReference = 3207359820872CD30023B56F /* damiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3207357B20872CD30023B56F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "chaoming chen";
+				TargetAttributes = {
+					3207358220872CD30023B56F = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3207359720872CD30023B56F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3207358220872CD30023B56F;
+					};
+				};
+			};
+			buildConfigurationList = 3207357E20872CD30023B56F /* Build configuration list for PBXProject "dami" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3207357A20872CD30023B56F;
+			productRefGroup = 3207358420872CD30023B56F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3207358220872CD30023B56F /* dami */,
+				3207359720872CD30023B56F /* damiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3207358120872CD30023B56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207358E20872CD30023B56F /* Main.storyboard in Resources */,
+				3207359320872CD30023B56F /* LaunchScreen.xib in Resources */,
+				3207359020872CD30023B56F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3207359620872CD30023B56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3207357F20872CD30023B56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207358B20872CD30023B56F /* ViewController.swift in Sources */,
+				3207358920872CD30023B56F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3207359420872CD30023B56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3207359F20872CD30023B56F /* damiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3207359A20872CD30023B56F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3207358220872CD30023B56F /* dami */;
+			targetProxy = 3207359920872CD30023B56F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3207358C20872CD30023B56F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3207358D20872CD30023B56F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3207359120872CD30023B56F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3207359220872CD30023B56F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		320735A020872CD30023B56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		320735A120872CD30023B56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		320735A320872CD30023B56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		320735A420872CD30023B56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = dami/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		320735A620872CD30023B56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = damiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dami.app/dami";
+			};
+			name = Debug;
+		};
+		320735A720872CD30023B56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = damiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dami.app/dami";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3207357E20872CD30023B56F /* Build configuration list for PBXProject "dami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320735A020872CD30023B56F /* Debug */,
+				320735A120872CD30023B56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		320735A220872CD30023B56F /* Build configuration list for PBXNativeTarget "dami" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320735A320872CD30023B56F /* Debug */,
+				320735A420872CD30023B56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		320735A520872CD30023B56F /* Build configuration list for PBXNativeTarget "damiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				320735A620872CD30023B56F /* Debug */,
+				320735A720872CD30023B56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3207357B20872CD30023B56F /* Project object */;
+}
